@@ -194,6 +194,10 @@ h2 {
     width: 25vw;
 }
 
+.thank-you {
+    font-size: 1.5rem;
+}
+
 .modal-close-btn {
     text-align: right;
 }

@@ -136,7 +136,8 @@ function submitOrder() {
 
     if (cname.value && cnumber.value && cvv.value) {
         modal.style.display = "none"
-        document.getElementById("total").innerHTML = `<h3>Thank you, ${cname.value}, for your order😀</h3>`
+        orderEl.classList.add('hidden')
+        document.getElementById("total-order").innerHTML = `<h3 class="thank-you">Thank you, ${cname.value}, for your order😀</h3>`
     }
     else {
         document.getElementById('error-msg').textContent = `Please complete the form.`
