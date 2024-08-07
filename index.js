@@ -118,7 +118,7 @@ function getOrderHtml() {
                         <button class="remove-btn" id="remove-btn" data-remove="${item.id}">Remove</button>
                     </div>
                     <p class="item-quantity">${item.quantity}</p>
-                    <p class="item-price">${item.price * item.quantity}</p>
+                    <p class="item-price">$${item.price * item.quantity}</p>
                 </div>
             </div>
         </div>
