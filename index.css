@@ -20,11 +20,11 @@ header {
 }
 
 h1 {
-    margin: 40px 0 5px 20px;
+    margin: 2.5em 0 .3125em 1.25em;
 }
 
 h2 {
-    margin: 5px 0 40px 20px;
+    margin: .3125em 0 2.5em 1.25em;
 }
 
 /* Item section */
@@ -43,7 +43,7 @@ h2 {
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
-    margin-bottom: 10px;
+    margin-bottom: .625em;
     border-bottom: 1px solid lightgray;
 }
 
@@ -52,7 +52,7 @@ h2 {
 }
 
 .item-info {
-    margin-left: 15px;
+    margin-left: .9375em;
     line-height: .2em;
     width: 25vw;
 }
@@ -63,18 +63,18 @@ h2 {
 
 .item-ingredients {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     color: gray;
 }
 
 .item-add {
     border: 1px solid gray;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 2em;
+    height: 2em;
     color: #000;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     padding: 0;
 }
 
@@ -84,7 +84,7 @@ h2 {
 }
 
 .add-btn {
-    margin-left: 75px;
+    margin-left: 4.688em;
 }
 
 /* Order */
@@ -101,7 +101,7 @@ h2 {
     justify-content: space-between;
     max-width: 600px;
     width: 100vw;
-    padding: 0 20px;
+    padding: 0 1.25em;
 }
 
 .item-remove {
