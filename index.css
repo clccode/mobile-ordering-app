@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 } 
 
 header {
@@ -145,6 +144,7 @@ h2 {
     max-width: 600px;
     padding: 5px 0;
     border-radius: 5px;
+    margin: .75em 0;
 }
 
 /* Hidden class for when elements don't need to be displayed */
