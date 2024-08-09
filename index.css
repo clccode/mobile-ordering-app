@@ -89,6 +89,10 @@ h2 {
 
 /* Order */
 
+.order-title {
+    margin-bottom: 1em;
+}
+
 .order {
     display: flex;
     flex-direction: column;

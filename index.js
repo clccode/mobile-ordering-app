@@ -105,7 +105,7 @@ function renderMenu() {
 }
 
 function getOrderHtml() {
-    let orderHtml = `<h2>Your order</h2>`
+    let orderHtml = `<h2 class="order-title">Your order</h2>`
     
     orderArray.forEach((item) => {
         
